@@ -8,7 +8,7 @@ print("Ip Address: "+ (json_data["ip"]))
 app = Flask(__name__)
 @app.route('/')
 def home():
-    className = 'cnit 381'
+    className = (json_data["ip"])
 
     return render_template('index.html', data=className)
 
