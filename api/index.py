@@ -13,6 +13,7 @@ def home():
 
     return render_template('index.html', data=className)
 
+
 @app.route('/about')
 def about():
     return 'About'
