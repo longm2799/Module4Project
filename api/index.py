@@ -1,8 +1,8 @@
 import requests 
 from flask import Flask, render_template
-
-url = "http://api.ipstack.com/check?access_key=ea37f7dd47cf2408fdaadd4003ae92a8"
-json_data = requests.get(url).json()
+class data:
+    url = "http://api.ipstack.com/check?access_key=ea37f7dd47cf2408fdaadd4003ae92a8"
+    json_data = requests.get(url).json()
 print("The Ip Address: "+ (data.json_data["ip"]))
 
 app = Flask(__name__)
