@@ -1,5 +1,5 @@
 import requests
-from index import data
+from api import index
 
 
 def test_classname():
