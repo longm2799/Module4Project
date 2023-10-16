@@ -1,4 +1,4 @@
-import url 
+import requests
 
 def test_classname():
   url = "http://api.ipstack.com/check?access_key=ea37f7dd47cf2408fdaadd4003ae92a8"
